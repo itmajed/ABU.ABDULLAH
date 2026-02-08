@@ -1,0 +1,64 @@
+body {
+  font-family: 'Cairo', 'Tajawal', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+
+h1, h2, h3, h4 { margin: 0 0 15px 0; }
+
+section { padding: 40px 20px; }
+
+.hero {
+  color: #ff1a1a;
+  text-align: center;
+  padding: 60px 20px;
+}
+.hero h1 { font-size: 36px; font-weight: 900; }
+.hero p { font-size: 18px; margin: 20px 0; }
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.clients ul { list-style: none; padding: 0; text-align: center; }
+.clients ul li { display: inline-block; margin: 10px 20px; font-weight: 500; }
+
+.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.product-item { width: 200px; text-align: center; }
+.product-item img { width: 100%; border-radius: 8px; }
+
+.advantages ul { list-style: disc; padding-left: 40px; color: #ff1a1a; }
+
+.how-to-order ol { padding-left: 40px; }
+.how-to-order ol li { margin-bottom: 10px; font-weight: 500; }
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact input, .contact button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  background-color: #ff1a1a;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.contact button:hover { background-color: #e60000; }
